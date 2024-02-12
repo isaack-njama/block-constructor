@@ -1,7 +1,7 @@
 use std::fs;
 use std::io::{BufRead, BufReader, Write};
 
-struct MempoolTransaction {
+pub struct MempoolTransaction {
     txid: String,
     fee: i32,
     weight: i32,
@@ -73,3 +73,7 @@ fn main() {
     let output_file = "transactions.txt";
     MempoolTransaction::write_output_file(output_file);
 }
+
+#[cfg(test)]
+#[path ="../tests/test.rs"]
+mod test;
