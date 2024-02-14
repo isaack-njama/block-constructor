@@ -39,6 +39,9 @@ cargo run
 cargo test
 ```
 
+Note:
+Tests are currently failing and the project is a work in progress. We are actively working on resolving the issues and improving test coverage. Feel free to check back later for updates.
+
 ## Contributing
 
 Contributions are welcome! If you'd like to contribute to this project, feel free to fork the repository, make your changes, and submit a pull request.
